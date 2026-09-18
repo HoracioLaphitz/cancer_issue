@@ -2,7 +2,8 @@
 
 ## Descripción
 
-> 🚧 Proyecto en desarrollo (en proceso).
+Pipeline de análisis de clustering sobre datos de cáncer de mama. Carga y preprocesa datos, aplica PCA, entrena modelos de clustering, evalúa sus resultados y genera perfiles y visualizaciones de los grupos.
+
 
 ## Estructura del proyecto
 
