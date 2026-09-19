@@ -1,8 +1,9 @@
 # Análisis Predictivo de Cáncer
 
-> 🚧 Proyecto en desarrollo (en proceso).
+## Descripción
 
-Sistema de machine learning end-to-end para la predicción y análisis de cáncer de mama, basado en el dataset **Wisconsin Breast Cancer**. Combina análisis exploratorio, ingeniería de características, entrenamiento de modelos y técnicas de interpretabilidad.
+Pipeline de análisis de clustering sobre datos de cáncer de mama. Carga y preprocesa datos, aplica PCA, entrena modelos de clustering, evalúa sus resultados y genera perfiles y visualizaciones de los grupos.
+
 
 ## Estructura del proyecto
 
@@ -27,6 +28,16 @@ El proyecto está pensado para cubrir las siguientes etapas:
 - Interpretabilidad de resultados (SHAP).
 
 > **Nota sobre métricas:** las cifras de performance y de impacto de negocio no están incluidas en este README porque, al día de esta actualización, no pudieron verificarse contra resultados reproducibles del repositorio (no hay un `metrics.json` u output de evaluación consultado). Los puntos anteriores describen los objetivos de diseño del pipeline, no resultados medidos. Cuando el proyecto tenga una corrida de evaluación reproducible, esta sección puede actualizarse con las cifras reales y su fuente.
+
+## Diagrama
+
+[Explorar la arquitectura interactiva en GitDiagram](https://gitdiagram.com/HoracioLaphitz/cancer_issue)
+
+```mermaid
+flowchart LR
+  A["data + deployment + logs"] --> B["Procesamiento de cancer_issue"]
+  B --> C["Resultados del proyecto"]
+```
 
 ## Tecnologías
 
